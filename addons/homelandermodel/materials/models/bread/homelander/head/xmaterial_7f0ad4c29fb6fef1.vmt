@@ -1,0 +1,33 @@
+//if you don't know what a parameter does, visit:
+//https://developer.valvesoftware.com/wiki/$phong
+"VertexLitGeneric"
+{
+    "$basetexture" "models\bread\homelander\head\xmaterial_7f0ad4c29fb6fef1_rgb"
+    "$bumpmap" "models\bread\homelander\head\xmaterial_7f0ad4c29fb6fef1_n"
+    "$phongexponenttexture" "models\bread\homelander\head\xmaterial_7f0ad4c29fb6fef1_e"
+
+    "$color2" "[0 0 0]"
+    "$blendtintbybasealpha" "1"
+
+    "$phong" "1"
+    "$phongboost" ".4"
+    "$phongfresnelranges" "[1 0.5 0]"
+    "$phongalbedotint" "0"
+
+    //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
+    "$rimlight" "1"
+    "$rimlightexponent" "100"
+    "$rimmask" "1"
+    "$rimlightboost" "1"
+
+    //remove this if viewing outside of MWB
+    "Proxies"
+    {
+        "MwEnvMapTint"
+        {
+            "specularity" "0.5"             //0.25, 0.5, 0.75, 1
+            "min" "0"
+            "max" "0.2"                       //change this if too bright in game
+        }
+    }
+}

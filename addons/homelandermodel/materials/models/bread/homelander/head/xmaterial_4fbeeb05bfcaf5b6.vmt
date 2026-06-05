@@ -1,0 +1,23 @@
+//if you don't know what a parameter does, visit:
+//https://developer.valvesoftware.com/wiki/$phong
+"VertexLitGeneric"
+{
+    "$basetexture" "models\bread\homelander\head\xmaterial_4fbeeb05bfcaf5b6_rgb"
+    "$bumpmap" "models\bread\homelander\head\xmaterial_4fbeeb05bfcaf5b6_n"
+    "$phongexponenttexture" "models\bread\homelander\head\xmaterial_4fbeeb05bfcaf5b6_e"
+
+
+	$alphatest 1
+	$alphatestreference .45
+	$nocull 1
+	$allowalphaphotocoverage 1
+
+	$phong "1"						
+	$phongboost "0,2" 		
+	$phongexponent "7"
+	$phongFresnelRanges  "[0.3 2 6]"
+	$phongdisablehalflambert "1"
+	$normalmapalphaphongmask "1"					
+
+
+}

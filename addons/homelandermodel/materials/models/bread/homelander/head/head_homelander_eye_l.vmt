@@ -1,0 +1,16 @@
+"EyeRefract"
+{
+	$iris "models/bread/homelander/head/head_hero_graves_eyes_c"
+	$corneatexture "engine/eye-cornea"
+	$ambientoccltexture "models/bread/homelander/head/head_admiral_eyes_ao"
+	$envmap "engine/eye-reflection-cubemap-"
+	
+	$eyeballradius 0.6305
+	$corneabumpstrength 1.0
+	$glossiness 1.0
+	$parallaxstrength 0.25
+	$dilation 0.5
+	
+	$halflambert 1
+	$nodecal 1
+}
