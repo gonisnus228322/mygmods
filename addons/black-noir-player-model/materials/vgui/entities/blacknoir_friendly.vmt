@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/entities/blacknoir_friendly"
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+}
