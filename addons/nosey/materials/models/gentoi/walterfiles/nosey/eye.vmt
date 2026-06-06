@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "models/gentoi/walterfiles/nosey/eye2"
+    "$bumpmap"     "models/gentoi/walterfiles/nosey/eye2_n"
+    "$nodecal" "1"
+    "$phong" "1"
+    "$phongboost"    "3"
+    "$phongexponent" "75"
+    "$phongfresnelranges"    "[0.1 0.23 0.945]"
+    "$phongdisablehalflambert"    "1"
+    "$color2" "[1 1 1]"
+
+    "$envmap" "env_cubemap"
+    "$normalmapalphaenvmapmask"        "1"
+    "$envmapfresnel"    "1"
+
+    "$envmaptint"        0
+$nocull 1
+}
